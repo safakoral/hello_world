@@ -1,6 +1,5 @@
 FROM python:3.9.18-alpine
 WORKDIR /app
-COPY . /app
+COPY hello_world.py .
 RUN pip install --no-cache-dir Flask
-EXPOSE 5000
-CMD ["python", "hello.py"]
+CMD ["python", "./hello_world.py"]
