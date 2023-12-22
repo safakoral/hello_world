@@ -4,7 +4,7 @@ services:
     build:
       context: ./hello_world
     ports:
-      - "8080:5000"
+      - 8080:5000
     environment:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0
