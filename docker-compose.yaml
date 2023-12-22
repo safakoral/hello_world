@@ -8,4 +8,4 @@ services:
     environment:
       - FLASK_APP=app.py
       - FLASK_RUN_HOST=0.0.0.0:8080
-      - FLASK_RUN_PORT=500
+      - FLASK_RUN_PORT=5000
